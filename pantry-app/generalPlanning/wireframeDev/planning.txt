@@ -1,0 +1,14 @@
+Thoughts/Questions:
+    How will the app display recipes
+    How will users access their recipes
+    How do you add a new recipes
+    Are recipes filtered/sorted
+    Do recipes have tags
+    How will images be displayed
+    What functionalities are provided to the user
+    What is displayed to the user at each point during the user's use of the app (vague on purpose)
+
+Functionality Ideas:
+    Button to add recipe on main page
+    dropdown to choose method of sorting
+    text field to choose tags to filter by
