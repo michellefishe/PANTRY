@@ -1,26 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from "./Header.js";
+import tableView from './tableView.js';
+import newRecView from "./newRecipeView.js";
 
 function App() {
-  const appName = "PANTRY";
-  const appLogo = document.createElement("img");
-  appLogo.src = "pantry-app/generalPlanning/UIDev/logo.png";
+  //const appName = "PANTRY";
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
     </div>
   );
 }
