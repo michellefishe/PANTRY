@@ -1,0 +1,13 @@
+Idea: An Amazon Alexa Skill that can take in the user’s own recipes and display/narrate the ingredients and steps of said recipes 
+
+Description: Using AWS Lambda and an Amazon Developer account, create an Amazon Alexa skill that allows users to input their own recipes and pictures for each. The skill should be supported both by voice only and devices with screens. The devices with screens will support speech/text synchronization, vertical scrolling, and supporting images if the user inputs them with the recipes
+
+Structure: Recipe class, name, ingredients, individual ingredients, instructions, instruction steps, pictures (one for recipe or one/step), tags, time, category
+
+Invocation: invocation keyword is “PANTRY”; 
+    samples: 
+        “Alexa, start my chicken parmesan recipe on PANTRY”
+        “Alexa, ask PANTRY to show me my dinner recipes”
+
+
+Planning question for testing: Can the Alexa skill identify users' own tags/categories that they create OR must the app have pre-programmed tags and categories so that the skill can access recipes categorized as "dinner" or tagged as "asian" for example
