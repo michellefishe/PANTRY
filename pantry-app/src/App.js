@@ -2,6 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const appName = "PANTRY";
+  const appLogo = document.createElement("img");
+  appLogo.src = "pantry-app/generalPlanning/UIDev/logo.png";
   return (
     <div className="App">
       <header className="App-header">
